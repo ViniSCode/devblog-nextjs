@@ -1,0 +1,49 @@
+.contentContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: calc(100vh - 5rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  > img {
+    max-width: 530px;
+    width: 100%;
+  }
+}
+
+.hero {
+  max-width: 600px;
+
+  h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-weight: bold;
+    margin-top: 2.5rem;
+  }
+
+  ul li {
+    list-style-type: circle;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-top: .2rem;
+    margin-left: 1.4rem;
+
+    &:first-child {
+      margin-top: 2rem;
+    }
+
+    span {
+      font-weight: bold;
+      color: var(--blue);
+    }
+  }
+
+  button {
+    margin-top: 2.5rem;
+  }
+  
+
+}
