@@ -1,1 +1,1 @@
-# devblog-nextjs
+# learing-next-js-basics
